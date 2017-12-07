@@ -1,3 +1,3 @@
-# one-component-lib
+# React component library
 
-A WIP component library.
+Just a playground for creating components in react.

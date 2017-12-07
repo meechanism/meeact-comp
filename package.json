@@ -1,7 +1,7 @@
 {
-  "name": "one-component-lib",
+  "name": "meeact-comp",
   "version": "0.1.0",
-  "description": "A component library.",
+  "description": "A react styled component library.",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meechanism/one-component-lib.git"
+    "url": "git+https://github.com/meechanism/meeact-comp.git"
   },
   "author": "Mee Cha",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/meechanism/one-component-lib/issues"
+    "url": "https://github.com/meechanism/meeact-comp/issues"
   },
-  "homepage": "https://github.com/meechanism/one-component-lib#readme",
+  "homepage": "https://github.com/meechanism/meeact-comp#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -32,10 +32,13 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^7.3.0",
     "eslint-watch": "^3.1.2",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "merge-files-webpack-plugin": "^1.1.2",
     "polished": "^1.7.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "styled-components": "^2.1.2"
+    "styled-components": "^2.1.2",
+    "webpack": "^3.5.6"
   }
 }
